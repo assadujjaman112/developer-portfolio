@@ -93,17 +93,41 @@ nav a {
   background: #fff8f3;
   margin: 130px 0;
 }
-main{
-    max-width: 1130px;
-    margin: 0 auto;
+main {
+  max-width: 1130px;
+  margin: 0 auto;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+main section {
+  margin-top: 150px;
 }
-.about-info{
-    text-align: center;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.what-i-do-description{
-    padding: 30px 150px ;
+.about-info {
+  text-align: center;
+}
+.what-i-do-description {
+  padding: 30px 150px;
+}
+.skill-container {
+  display: flex;
+  gap: 30px;
+}
+.skill {
+  padding: 10px;
+  gap: 10px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+}
+.resume-col-title {
+  color: #474747;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
 }
